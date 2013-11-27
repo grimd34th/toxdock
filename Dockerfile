@@ -21,7 +21,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # Install
 RUN apt-get install -y git \
  curl build-essential libtool autotools-dev automake ncurses-dev checkinstall libavformat-dev \
- libavdevice-dev libswscale-dev libsdl-dev libopenal-dev libopus-dev qt5-qmake libvpx-dev check
+ libavdevice-dev libswscale-dev libsdl-dev libopenal-dev libvpx-dev check
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh

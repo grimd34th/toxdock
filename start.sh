@@ -106,7 +106,7 @@ get_distro_type() {
     ./configure >> /dev/null
     make -j3 >> /dev/null
     sudo make install >> /dev/null
-    sudo apt-get install git curl build-essential libtool autotools-dev automake ncurses-dev checkinstall libavformat-dev libavdevice-dev libswscale-dev libsdl-dev libopenal-dev libopus-dev qt5-qmake libvpx-dev check
+    sudo apt-get install git curl build-essential libtool autotools-dev automake ncurses-dev checkinstall libavformat-dev libavdevice-dev libswscale-dev libsdl-dev libopenal-dev libvpx-dev check
     cd ..
     rm ./libconfig-1.4.9.tar.gz
     git clone git://source.ffmpeg.org/ffmpeg.git
