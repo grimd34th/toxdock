@@ -150,3 +150,4 @@ get_distro_type() {
 # Detect GNU/Linux distribution/install dependencies for Tox/Toxic
 get_distro_type
 echo "Done"
+toxic
