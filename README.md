@@ -1,4 +1,4 @@
-# docker-nginx-php5
+# toxdock
 
 A Dockerfile which produces a docker image that runs [Tox][tox] with [Toxic][toxic].
 
